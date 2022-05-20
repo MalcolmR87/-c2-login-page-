@@ -5,8 +5,8 @@
 -   [x] Create an `index.html` file in VSCode.
 -   [x] Create a `style.css` file in VSCode.
 -   [x] Read all prerequesite reading materials.
--   [] Reconstruct the provided login page, for the challenge.
--   [] Commit to Git (Stage).
--   [] Publish on Github (Sync).
--   [] Deploy on Vercel.
+-   [x] Reconstruct the provided login page, for the challenge.
+-   [x] Commit to Git (Stage).
+-   [x] Publish on Github (Sync).
+-   [x] Deploy on Vercel.
 -   [] And submit to Moodle, for grading.
