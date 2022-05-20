@@ -1,9 +1,23 @@
-div {
-    background-image:
-    url(http://fullhdwall.com/wp-content/uploads/2017/07/Beautiful-Autumn-Forest.jpg) 
+#Parent {
+  height: auto;
+  color: transparent;
+}
+    
+#Left {
+  float: left;
+  background-color: rgb(229, 230, 230);
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  height: 1000px;
+}
+   
+#Right {
+  width: 40%;
+  height: 1000px;
+  float: right;
+  background-repeat: no-repeat;
+  background-image:
+    url(./c2-bg.png) 
     }
     
-    h1{
-      background-color: grey;
-      margin-right: 20em;
-    }
