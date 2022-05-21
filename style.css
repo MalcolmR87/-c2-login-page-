@@ -10,6 +10,7 @@
   justify-content: center;
   width: 60%;
   height: 1000px;
+  padding: 0 auto;
 }
 
 #c2 {
@@ -28,4 +29,3 @@
   background-image:
     url(./c2-bg.png) 
     }
-    
