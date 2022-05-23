@@ -9,4 +9,4 @@
 -   [x] Commit to Git (Stage).
 -   [x] Publish on Github (Sync).
 -   [x] Deploy on Vercel.
--   [] And submit to Moodle, for grading.
+-   [x] And submit to Moodle, for grading.
