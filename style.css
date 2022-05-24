@@ -5,12 +5,12 @@
     
 #Left {
   float: left;
-  padding: 350px 270px;
+  padding: 250px 270px;
   background-color: #DFE1E5;
   display: flex;
   justify-content: center;
   width: 24%;
-  height: 300px;
+  height: 500px;
   padding: 0 auto;
 }
 
