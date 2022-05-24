@@ -5,7 +5,7 @@
     
 #Left {
   float: left;
-  padding: 240px 270px;
+  padding: 240px 273px;
   background-color: rgb(229, 230, 230);
   display: flex;
   justify-content: center;
@@ -40,6 +40,7 @@
 
 #Login {
   background-color: rgb(0, 166, 255);
+  margin-left: 110px;
 }
 
 #Right {
