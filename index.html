@@ -5,29 +5,38 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>c2-login-page</title>
-	<link rel="stylesheet" href="style.css">
+	<link  href="style.css"rel="stylesheet">
 </head>
 <body>
 	<div id="Parent"></div>
 
+	
+
 	<div id="Left">
-		<form action="#">
-		<p>
-			<img src="./c2-logo.png"></p>
-		<p>	
-			<input type="email" id="email" placeholder="Email"></p>
+		<form action="#" id="form-section">
 			<p>
-			<input type="password" id="password" placeholder="Password"></p>
-		<p>
-		<input type="checkbox" name="remember me" id="Remember Me">
-		<label for="Remember Me" id="RememberMe">Remember Me</label>
-		<a href="havingtrouble.html" id="a">(Having Trouble?)</a> 
-		<input type="submit" id="Login" value="Login">
-		</p>
-		</form>
+				<img src="./c2-logo.png"></p>
+		
+			<p id="hidden">
+				Incorrect username or password.
+				<input id="btn" type="button" value="X">
+			</p>
+		
+			<p>	
+				<input type="email" id="email" placeholder="Email" value=""></p>
+			<p>
+				<input type="password" id="password" placeholder="Password" value=""></p>
+			<p id="p5">
+				<input type="checkbox" name="remember me" id="Remember Me">
+				<label for="Remember Me" id="RememberMe">Remember Me</label>
+				<a href="havingtrouble.html" id="a">(Having Trouble?)</a> 
+				<input type="submit" id="Login" value="Login">
+			</p>
+		</form>	
 	</div>
 	
 	<div id="Right"></div>
 
+	<script src="script.js"></script>
 </body>
 </html>

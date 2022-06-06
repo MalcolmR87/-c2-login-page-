@@ -14,6 +14,23 @@
   padding: 0 auto;
 }
 
+#hidden {
+  width: 97%;
+  padding: 3% 5%;
+  background-color: #ffc6b6;
+  border-color: #935543;
+  border-radius: 3%;
+  display: none;
+}
+
+#btn {
+  margin-left: 25%;
+  color: #B24A4E;
+  background-color: #ffc6b6;
+  border-color: #ffc6b6;
+  outline: none;
+}
+
 
 #Left img {
   width: 250px;
@@ -51,6 +68,7 @@ input#password {
   font-size: small;
   color: rgb(53, 53, 53);
   margin-left: 10px;
+  text-decoration: none;
 }
 
 #Login {
