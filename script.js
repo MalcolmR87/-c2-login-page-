@@ -6,7 +6,7 @@ const formElement = document.getElementById("form-section");
 //console.log(formElement)
 formElement.addEventListener("submit", submitForm);
 
-//console.log(  hideElement.classList.remove  )
+//console.log(  hideElement.classList  )
 //console.log(  hideElement.classList.remove("hide") )
 
 function submitForm(evt){
