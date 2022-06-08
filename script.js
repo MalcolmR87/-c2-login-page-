@@ -1,17 +1,22 @@
-const hideForm = document.getElementById("hidden");
-const formSection = document.getElementById("form-section");
-const loginEl = document.getElementById("email", "password");
-const loginBtn = document.querySelector("#Login")
+const hideElement = document.querySelector(".hide");
+//console.log(hideElement)
+const emailElement = document.querySelector("input#email");
+//console.log(emailElement)
+const formElement = document.getElementById("form-section");
+//console.log(formElement)
+formElement.addEventListener("submit", submitForm);
 
+//console.log(  hideElement.classList.remove  )
+//console.log(  hideElement.classList.remove("hide") )
 
-function loginIn(event) {
-  event.preventDefault();
-  
-  if( loginEl === ""); {
+function submitForm(evt){
+  evt.preventDefault();
 
-    hideForm.classList.remove("hide");
-    loginBtn.value = "Logging In";
+  if(emailElement.value === ""){
+    //console.log(emailElement.value)
+    hideElement.classList.remove('hide');
+
+  } else {
+   hideElement.classList.add('hide');
   }
 }
-
-formSection.addEventListener("Submit", loginIn);

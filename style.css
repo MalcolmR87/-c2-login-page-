@@ -1,38 +1,29 @@
-#Parent {
-  height: auto;
-  color: transparent;
-}
-    
-#Left {
+#left {
   float: left;
   padding: 250px 270px;
   background-color: #DFE1E5;
   display: flex;
   justify-content: center;
   width: 24%;
-  height: 500px;
+  height: 320px;
   padding: 0 auto;
 }
 
-#hidden {
-  width: 97%;
-  padding: 3% 5%;
-  background-color: #ffc6b6;
-  border-color: #935543;
-  border-radius: 3%;
+.hide {
   display: none;
 }
 
-#btn {
-  margin-left: 25%;
-  color: #B24A4E;
+#text-p {
+  width: 89%;
+  padding: 2% 5%;
   background-color: #ffc6b6;
-  border-color: #ffc6b6;
-  outline: none;
+  border: .1rem solid #ffc6b6;
+  outline: #ffc6b6;
+  border-radius: 3%;
+  text-align: center;
 }
 
-
-#Left img {
+#left img {
   width: 250px;
   height: 100px;
   margin-left: 55px;
@@ -41,7 +32,7 @@
 }
 
 input#email {
-  width: 100%;
+  width: 94%;
   padding-top: 2%;
   padding-bottom: 2%;
   padding-left: 5%;
@@ -51,7 +42,7 @@ input#email {
 }
 
 input#password {
-  width: 100%;
+  width: 94%;
   padding-top: 2%;
   padding-bottom: 2%;
   padding-left: 5%;
@@ -59,7 +50,7 @@ input#password {
   border-color: #DCE7EF;
 }
 
-#RememberMe {
+#remember-me {
   font-size:medium;
   color: rgb(53, 53, 53);
 }
@@ -71,7 +62,7 @@ input#password {
   text-decoration: none;
 }
 
-#Login {
+#login {
   background-color: rgb(6, 177, 244);
   border-color: rgb(6, 177, 244);
   border-bottom-right-radius: 7px;
@@ -80,9 +71,9 @@ input#password {
   margin-left: 65px;
 }
 
-#Right {
+#right {
   width: 40%;
-  height: 580px;
+  height: 369px;
   float: right;
   padding-bottom: 30%;
   margin-bottom: 1%;
